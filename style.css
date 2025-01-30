@@ -5,6 +5,9 @@ body {
 ul {
   list-style-type: none;
 }
+li {
+  list-style-type: square;
+}
 h1 {
   text-decoration: underline;
   color: aliceblue;
