@@ -6,7 +6,7 @@ ul {
   list-style-type: none;
 }
 li {
-  list-style-type: square;
+  list-style-type: none;
 }
 h1 {
   text-decoration: underline;
@@ -18,10 +18,17 @@ h1 {
   border-radius: 8px;
   width: 50%;
   text-align: center;
-}
+ }
 
 .centered-text {
   margin: 0;
   text-align: center;
   color: black;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
