@@ -19,7 +19,14 @@ h1 {
   width: 50%;
   text-align: center;
  }
-
+ #answer {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+}
 .centered-text {
   margin: 0;
   text-align: center;
@@ -32,3 +39,4 @@ h1 {
     align-items: center;
     height: 100%;
 }
+
